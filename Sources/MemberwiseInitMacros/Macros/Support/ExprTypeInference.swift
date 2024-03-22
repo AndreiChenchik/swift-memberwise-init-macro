@@ -321,7 +321,7 @@ extension ExprSyntax {
       .unexpectedNodes, .unresolvedAsExpr, .unresolvedIsExpr, .unresolvedTernaryExpr,
       .valueBindingPattern, .variableDecl, .versionComponentList, .versionComponent, .versionTuple,
       .whereClause, .whileStmt, .wildcardPattern, .yieldStmt, .yieldedExpressionList,
-      .yieldedExpression, .yieldedExpressionsClause:
+      .yieldedExpression, .yieldedExpressionsClause, .thenStmt:
       return nil
     }
   }
